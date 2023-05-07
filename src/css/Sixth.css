@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.sixthPage{
+    height: 65vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper{
+    height: 80%;
+    margin: 3rem 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sixthTable{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.sixthspotify{
+    height: 2.1rem;
+    width: 7rem;
+}
+
+
+table{
+    height: 80%;
+    padding: 3vh 2vw;
+    width: 55vw;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+  }
+  
+  table thead{
+    letter-spacing: 0.1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 1rem 0;
+    color: rgb(113, 108, 108);
+    font-size: 0.95rem;
+  }
+  table tbody tr{
+    text-align: center;
+  }
+  
+  table tbody td{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    word-spacing: 0.2rem;
+    
+    padding: 0.5rem 0;
+    position: relative;
+    color: white;
+    font-size: 1rem;
+  }
+  table tbody td:hover{
+    cursor: pointer;
+    color: rgb(48, 150, 48);
+}
+.sixthSocials{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.social{
+   
+    height: 2rem;
+    width: 2rem;
+    scale: 1.5;
+    
+    padding: 0.5rem;
+    margin: 8px;
+    color: white;
+}
+.social:hover ,.footer:hover{
+    color: rgb(48, 150, 48);
+    cursor: pointer;
+}
+
+.sixthFooter{
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer{
+    color: gray;
+    padding: 1rem;
+    font-size: 0.8rem;
+}

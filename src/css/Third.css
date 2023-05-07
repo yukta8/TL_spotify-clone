@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+.thirdPage{
+    
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 60vh;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    
+    font-size: 3.5rem;
+    font-weight: 900;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}
+@media only screen and (max-width: 767px) {
+    .text{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+  }
